@@ -11,6 +11,16 @@
 		823D4EC32A8603B80008A111 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823D4EC22A8603B80008A111 /* ContentView.swift */; };
 		823D4EC52A8603B90008A111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 823D4EC42A8603B90008A111 /* Assets.xcassets */; };
 		823D4EC82A8603B90008A111 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 823D4EC72A8603B90008A111 /* Preview Assets.xcassets */; };
+		823D4ECF2A86052C0008A111 /* CatFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823D4ECE2A86052C0008A111 /* CatFactsView.swift */; };
+		823D4ED12A86053E0008A111 /* CatImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823D4ED02A86053E0008A111 /* CatImagesView.swift */; };
+		823D4ED32A86054C0008A111 /* CatBounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823D4ED22A86054C0008A111 /* CatBounceView.swift */; };
+		823D4ED52A86055B0008A111 /* CatGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823D4ED42A86055B0008A111 /* CatGalleryView.swift */; };
+		823D4ED72A860A3C0008A111 /* CatFactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823D4ED62A860A3C0008A111 /* CatFactManager.swift */; };
+		823D4ED92A860EDF0008A111 /* CatFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823D4ED82A860EDF0008A111 /* CatFact.swift */; };
+		82F6C26E2A91E77800B3A59B /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = 82F6C26D2A91E77800B3A59B /* Subsonic */; };
+		82F6C2702A91E89300B3A59B /* meow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 82F6C26F2A91E89300B3A59B /* meow.m4a */; };
+		82F6C2922A91F35900B3A59B /* CatBounceScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F6C2912A91F35900B3A59B /* CatBounceScreen.storyboard */; };
+		82F6C2942A91F55200B3A59B /* CatBounceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6C2932A91F55200B3A59B /* CatBounceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,15 @@
 		823D4EC22A8603B80008A111 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		823D4EC42A8603B90008A111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		823D4EC72A8603B90008A111 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		823D4ECE2A86052C0008A111 /* CatFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactsView.swift; sourceTree = "<group>"; };
+		823D4ED02A86053E0008A111 /* CatImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImagesView.swift; sourceTree = "<group>"; };
+		823D4ED22A86054C0008A111 /* CatBounceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBounceView.swift; sourceTree = "<group>"; };
+		823D4ED42A86055B0008A111 /* CatGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatGalleryView.swift; sourceTree = "<group>"; };
+		823D4ED62A860A3C0008A111 /* CatFactManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactManager.swift; sourceTree = "<group>"; };
+		823D4ED82A860EDF0008A111 /* CatFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFact.swift; sourceTree = "<group>"; };
+		82F6C26F2A91E89300B3A59B /* meow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = meow.m4a; sourceTree = "<group>"; };
+		82F6C2912A91F35900B3A59B /* CatBounceScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CatBounceScreen.storyboard; sourceTree = "<group>"; };
+		82F6C2932A91F55200B3A59B /* CatBounceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBounceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82F6C26E2A91E77800B3A59B /* Subsonic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +55,7 @@
 		823D4EB42A8603B70008A111 = {
 			isa = PBXGroup;
 			children = (
+				82F6C26F2A91E89300B3A59B /* meow.m4a */,
 				823D4EBF2A8603B80008A111 /* myCat App */,
 				823D4EBE2A8603B80008A111 /* Products */,
 			);
@@ -51,8 +72,8 @@
 		823D4EBF2A8603B80008A111 /* myCat App */ = {
 			isa = PBXGroup;
 			children = (
+				823D4EDA2A86156E0008A111 /* Views */,
 				823D4EC02A8603B80008A111 /* myCat_AppApp.swift */,
-				823D4EC22A8603B80008A111 /* ContentView.swift */,
 				823D4EC42A8603B90008A111 /* Assets.xcassets */,
 				823D4EC62A8603B90008A111 /* Preview Content */,
 			);
@@ -65,6 +86,54 @@
 				823D4EC72A8603B90008A111 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		823D4EDA2A86156E0008A111 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				823D4EC22A8603B80008A111 /* ContentView.swift */,
+				823D4EDE2A8615DB0008A111 /* CatGalleryView */,
+				823D4EDD2A8615CE0008A111 /* BouncyCatView */,
+				823D4EDC2A8615B90008A111 /* CatImageView */,
+				823D4EDB2A8615920008A111 /* CatFactView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		823D4EDB2A8615920008A111 /* CatFactView */ = {
+			isa = PBXGroup;
+			children = (
+				823D4ED62A860A3C0008A111 /* CatFactManager.swift */,
+				823D4ED82A860EDF0008A111 /* CatFact.swift */,
+				823D4ECE2A86052C0008A111 /* CatFactsView.swift */,
+			);
+			path = CatFactView;
+			sourceTree = "<group>";
+		};
+		823D4EDC2A8615B90008A111 /* CatImageView */ = {
+			isa = PBXGroup;
+			children = (
+				823D4ED02A86053E0008A111 /* CatImagesView.swift */,
+			);
+			path = CatImageView;
+			sourceTree = "<group>";
+		};
+		823D4EDD2A8615CE0008A111 /* BouncyCatView */ = {
+			isa = PBXGroup;
+			children = (
+				823D4ED22A86054C0008A111 /* CatBounceView.swift */,
+				82F6C2912A91F35900B3A59B /* CatBounceScreen.storyboard */,
+				82F6C2932A91F55200B3A59B /* CatBounceViewController.swift */,
+			);
+			path = BouncyCatView;
+			sourceTree = "<group>";
+		};
+		823D4EDE2A8615DB0008A111 /* CatGalleryView */ = {
+			isa = PBXGroup;
+			children = (
+				823D4ED42A86055B0008A111 /* CatGalleryView.swift */,
+			);
+			path = CatGalleryView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +152,9 @@
 			dependencies = (
 			);
 			name = "myCat App";
+			packageProductDependencies = (
+				82F6C26D2A91E77800B3A59B /* Subsonic */,
+			);
 			productName = "myCat App";
 			productReference = 823D4EBD2A8603B80008A111 /* myCat App.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +183,9 @@
 				Base,
 			);
 			mainGroup = 823D4EB42A8603B70008A111;
+			packageReferences = (
+				82F6C26C2A91E77800B3A59B /* XCRemoteSwiftPackageReference "subsonic" */,
+			);
 			productRefGroup = 823D4EBE2A8603B80008A111 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +201,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				823D4EC82A8603B90008A111 /* Preview Assets.xcassets in Resources */,
+				82F6C2922A91F35900B3A59B /* CatBounceScreen.storyboard in Resources */,
+				82F6C2702A91E89300B3A59B /* meow.m4a in Resources */,
 				823D4EC52A8603B90008A111 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +214,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				823D4ED52A86055B0008A111 /* CatGalleryView.swift in Sources */,
 				823D4EC32A8603B80008A111 /* ContentView.swift in Sources */,
+				823D4ED72A860A3C0008A111 /* CatFactManager.swift in Sources */,
+				823D4ED32A86054C0008A111 /* CatBounceView.swift in Sources */,
+				823D4ECF2A86052C0008A111 /* CatFactsView.swift in Sources */,
 				823D4EC12A8603B80008A111 /* myCat_AppApp.swift in Sources */,
+				823D4ED92A860EDF0008A111 /* CatFact.swift in Sources */,
+				82F6C2942A91F55200B3A59B /* CatBounceViewController.swift in Sources */,
+				823D4ED12A86053E0008A111 /* CatImagesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +421,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		82F6C26C2A91E77800B3A59B /* XCRemoteSwiftPackageReference "subsonic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/subsonic";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		82F6C26D2A91E77800B3A59B /* Subsonic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82F6C26C2A91E77800B3A59B /* XCRemoteSwiftPackageReference "subsonic" */;
+			productName = Subsonic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 823D4EB52A8603B70008A111 /* Project object */;
 }
